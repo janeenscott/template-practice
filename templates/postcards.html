@@ -1,0 +1,11 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for song in song_list %}
+<p>{{ song.title }}:
+    {{ song.lyrics[0] }}</p>
+{% endfor %}
+
+{% endblock %}
