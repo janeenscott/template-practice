@@ -1,0 +1,22 @@
+body{
+    background: pink;
+}
+
+
+
+.box{
+    display: inline-block;
+    width: 25%;
+    margin: 10px
+
+}
+
+.box img{
+    max-width: 100%;
+}
+
+@media (max-width: 300px){
+    .box{
+        display: block;
+    }
+}
